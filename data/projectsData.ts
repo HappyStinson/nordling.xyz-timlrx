@@ -7,20 +7,28 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'Bangers ‘n’ Biz',
+    description: `My intention is to use this space to share anything music related that excites me within three areas of the music industry: Music Creation, Technology, and Business.`,
+    imgSrc: '/static/images/bangers-n-biz.png',
+    href: 'https://youtube.com/@BangersNBiz',
   },
   {
-    title: 'Bangers ‘n’ Biz',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Game Development',
+    description: `Some of the small games I've done over the years. Why don't you give them a spin?`,
+    imgSrc: '/static/images/unsplash/game-dev.jpeg',
+    href: 'https://happystinson.itch.io/',
+  },
+  {
+    title: 'Photography',
+    description: `Learning the art of capturing the moment with cool snaps.`,
+    imgSrc: '/static/images/flickr.jpeg',
+    href: 'https://www.flickr.com/people/ras-nordling',
+  },
+  {
+    title: 'Songwriting',
+    description: `There was something on my mind and then I recorded it to music.`,
+    imgSrc: '/static/images/unsplash/guitar-fretboard.jpeg',
+    href: 'https://soundcloud.com/happystinson/sets/original-songs',
   },
 ]
 
